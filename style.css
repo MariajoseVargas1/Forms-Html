@@ -6,13 +6,17 @@ body {
 
 .registro{
     margin: 0 auto;
-    width: 300px;
+    width: 310px;
     border: 2px solid;
     background-color: rgb(177, 199, 216);
+    border-radius: 10px;
+    opacity: 90%;
 }
 
-h1{text-decoration: underline;
+h1{
+    text-decoration: underline;
 }
 .titulos{
     text-decoration: underline;
+    
 }
