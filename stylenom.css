@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo3f-fUtGSUj8xzNaz_1HyBiym0L0s259sTg&usqp=CAU);
+    
+}
+
+
+.registronom{
+    margin: 0 auto;
+    width: 310px;
+    border: 2px solid;
+    background-color: rgb(177, 199, 216);
+    border-radius: 10px;
+    opacity: 90%;
+}
+
+h1{
+    text-decoration: underline;
+}
+.titulos{
+    text-decoration: underline;
+    
+}
