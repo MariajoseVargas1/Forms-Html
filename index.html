@@ -12,17 +12,17 @@
 
         <form action="action=">
 
-             <div class="titulos">
+            <div class="titulos">
 
-       
-        
-            <label for="">Número de Documento:</label><br>
-            <input type="text" name="noDocument" id="noDocument" autofocus required pattern="{20}"
-                placeholder="Ingrese su número de documento"><br><br>
 
-            <p>Seleccione su tipo de documento:</p><br>
 
-        </div> 
+                <label for="">Número de Documento:</label><br>
+                <input type="text" name="noDocument" id="noDocument" autofocus required pattern="{20}"
+                    placeholder="Ingrese su número de documento"><br><br>
+
+                <p>Seleccione su tipo de documento:</p><br>
+
+            </div>
             <input type="radio" id="Cedula de ciudadania" name="typedocument" value="Cedula de ciudadania">
             <label for="Cedula de ciudadania">Cedula de ciudadania</label><br>
 
@@ -33,37 +33,38 @@
             <label for="passport">Pasaporte</label><br><br>
 
             <div class="titulos">
-            <label for="">Nombre Completo:</label><br>
-            <input type="text" name="firstname" id="firstname" required pattern="[A-Za-z]{2,15}"
-                placeholder="Ingrese su nombre"><br><br>
+                <label for="">Nombre Completo:</label><br>
+                <input type="text" name="firstname" id="firstname" required pattern="[A-Za-z]{2,15}"
+                    placeholder="Ingrese su nombre"><br><br>
 
-            <label for="">Apellidos:</label><br>
-            <input type="text" name="lastname" id="lastname" required pattern="[A-Za-z]{2,15}"
-                placeholder="Ingrese su apellido"><br><br>
+                <label for="">Apellidos:</label><br>
+                <input type="text" name="lastname" id="lastname" required pattern="[A-Za-z]{2,15}"
+                    placeholder="Ingrese su apellido"><br><br>
 
-            <label for="">Email:</label><br>
-            <input type="text" name="email" id="email" required pattern="[A-Za-z]{2,15}"
-                placeholder="Ingrese su email"><br><br>
+                <label for="">Email:</label><br>
+                <input type="email" name="email" id="email" required pattern="[A-Za-z]{2,15}"
+                    placeholder="Ingrese su email"><br><br>
 
-            <label for="">Dirección de residencia:</label><br>
-            <input type="text" name="direcc" id="direcc" required pattern="[A-Za-z][0-10]{2,15}"
-                placeholder="Ingrese su dirección"><br><br>
+                <label for="">Dirección de residencia:</label><br>
+                <input type="text" name="direcc" id="direcc" required pattern="[A-Za-z]{2,15}"
+                    placeholder="Ingrese su dirección"><br><br>
 
-            <label for="">Teléfono (Celular):</label><br>
-            <input type="tel" name="tele" id="tele" required pattern="[0-1000]{10}"
-                placeholder="Ingrese su teléfono"><br><br>
+                <label for="">Teléfono (Celular):</label><br>
+                <input type="tel" name="tele" id="tele" required pattern="[0-1000]{10}"
+                    placeholder="Ingrese su teléfono"><br><br>
 
-            <label for="">Fecha de Nacimiento:</label><br>
-            <input type="date" name="fechanacimiento" id="fechanacimiento"
-                placeholder="Ingrese su fecha de nacimiento"><br><br>
+                <label for="">Fecha de Nacimiento:</label><br>
+                <input type="date" name="fechanacimiento" id="fechanacimiento"
+                    placeholder="Ingrese su fecha de nacimiento"><br><br>
 
-            <label for="">Contraseña:</label><br>
-            <input type="password" name="contraseña" id="contraseña" placeholder="Ingrese su contraseña"><br><br>
+                <label for="">Contraseña:</label><br>
+                <input type="password" name="contraseña" id="contraseña" placeholder="Ingrese su contraseña" required
+                    pattern=" ^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$"><br><br>
 
-            <label for="">Confirmar contraseña:</label><br>
-            <input type="password" name="confirmarcontraseña" id="confirmarcontraseña"
-                placeholder="Ingrese su contraseña nuevamente"><br><br>
-            </div> 
+                <label for="">Confirmar contraseña:</label><br>
+                <input type="password" name="confirmarcontraseña" id="confirmarcontraseña"
+                    placeholder="Ingrese su contraseña nuevamente"><br><br>
+            </div>
             <input type="submit" value="Enviar">
 
         </form>
