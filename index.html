@@ -17,7 +17,7 @@
 
 
                 <label for="">Número de Documento:</label><br>
-                <input type="text" name="noDocument" id="noDocument" autofocus required pattern="{20}"
+                <input type="text" name="noDocument" id="noDocument" autofocus required pattern="[0-9]{7,25}"
                     placeholder="Ingrese su número de documento"><br><br>
 
                 <p>Seleccione su tipo de documento:</p><br>
@@ -46,7 +46,7 @@
                     placeholder="Ingrese su email"><br><br>
 
                 <label for="">Dirección de residencia:</label><br>
-                <input type="text" name="direcc" id="direcc" required pattern="[A-Za-z]{2,15}"
+                <input type="text" name="direcc" id="direcc" required pattern="[A-Za-z 0-9]{2,15}"
                     placeholder="Ingrese su dirección"><br><br>
 
                 <label for="">Teléfono (Celular):</label><br>
