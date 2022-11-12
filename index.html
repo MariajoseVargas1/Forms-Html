@@ -12,16 +12,17 @@
 
         <form action="action=">
 
-            <!-- <div class="titulos">
+             <div class="titulos">
 
-        </div> -->
+       
+        
             <label for="">Número de Documento:</label><br>
             <input type="text" name="noDocument" id="noDocument" autofocus required pattern="{20}"
                 placeholder="Ingrese su número de documento"><br><br>
 
             <p>Seleccione su tipo de documento:</p><br>
 
-
+        </div> 
             <input type="radio" id="Cedula de ciudadania" name="typedocument" value="Cedula de ciudadania">
             <label for="Cedula de ciudadania">Cedula de ciudadania</label><br>
 
@@ -31,7 +32,7 @@
             <input type="radio" id="Pasaporte" name="typedocument" value="passport">
             <label for="passport">Pasaporte</label><br><br>
 
-
+            <div class="titulos">
             <label for="">Nombre Completo:</label><br>
             <input type="text" name="firstname" id="firstname" required pattern="[A-Za-z]{2,15}"
                 placeholder="Ingrese su nombre"><br><br>
@@ -62,7 +63,7 @@
             <label for="">Confirmar contraseña:</label><br>
             <input type="password" name="confirmarcontraseña" id="confirmarcontraseña"
                 placeholder="Ingrese su contraseña nuevamente"><br><br>
-
+            </div> 
             <input type="submit" value="Enviar">
 
         </form>
